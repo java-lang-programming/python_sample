@@ -1,0 +1,12 @@
+{
+	"name": "falsk firebase",
+	"dockerComposeFile": [
+	  "../docker-compose.yml"
+	],
+	"service": "server",
+	"workspaceFolder": "/app",
+	"extensions": [
+		"ms-python.python"
+	],
+	"shutdownAction": "stopCompose" // or "stopCompose"
+}

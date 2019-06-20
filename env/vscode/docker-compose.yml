@@ -1,0 +1,12 @@
+version: '3.6'
+services:
+  server:
+    build:
+      context: .
+    image: py_auth_develop
+    container_name: py_auth_develop
+    tty: true
+    volumes:
+      - ./auth/:/app/
+    ports:
+      - "5000:5000"
